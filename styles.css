@@ -11,14 +11,17 @@ body {
 
 .my-text {
   font-family: 'MinecraftRegular-Bmg3', sans-serif;
-  color: rgb(178, 96, 255);
   text-align: center;
 }
 
 a {
-      color: rgb(190, 120, 255);
+      color: rgb(160, 58, 255);
       font-size: 40px;
       
+}
+
+h1 {
+    color: rgb(160, 58, 255);
 }
 
 .center {
