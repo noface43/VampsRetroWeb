@@ -17,7 +17,13 @@ body {
 a {
       color: rgb(160, 58, 255);
       font-size: 40px;
+      transition: 0.2s ease;
       
+}
+
+a:hover {
+      font-size: 50px;
+      color: rgb(176, 93, 255);
 }
 
 h1 {
@@ -31,4 +37,45 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+.CS::after {
+  content:"More coming soon.";
+  margin-top: 30px;
+  font-size: 20px;
+  animation: CS-text infinite 3s;
+}
+
+.AboutMe {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px; 
+}
+
+@keyframes CS-text {
+  0% {content:"More coming soon.";}
+  50% {top: 0px; color: rgb(232, 207, 255); content:"More coming soon..";}
+  100% {content:"More coming soon...";}
+}
+
+@media (min-width: 756px) {
+a {
+      color: rgb(160, 58, 255);
+      font-size: 50px;
+      transition: 0.2s ease;
+      
+}
+
+a:hover {
+      font-size: 60px;
+      color: rgb(176, 93, 255);
+}
+
+.AboutMe {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 40px; 
+}
+
 }
