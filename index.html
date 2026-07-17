@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamp</title>
+<script>
+    function scrollToSection() {
+    document.getElementById("AboutMe").scrollIntoView({ behavior: "smooth" });
+}
+    function scrollToSection2() {
+    document.getElementById("Links").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+</head>
+<body>
+    <div id="Dock">     
+        <button style="border: 0; outline: 0; background-color: rgba(255, 255, 255, 0);"> 
+        <p onclick="scrollToSection2()" id="Title" style="font-size: 200%; color:rgb(255, 255, 255) ; text-shadow: 0px 0px 10px rgb(255, 255, 255);"> Links</p> 
+    </button>
+    <button onclick="scrollToSection()" style="border: 0; outline: 0; background-color: rgba(255, 255, 255, 0);"> 
+        <p id="Title" style="font-size: 200%; color:rgb(255, 49, 49); text-shadow: 0px 0px 10px rgb(255, 49, 49)"> About Me</p> 
+    </button>
+
+    </div>
+    <div id="TopOverlay">
+         <p id="Title" style="font-size: 380%; color: rgb(255, 49, 49); margin-bottom: 130px; text-align: center; text-shadow: 0px 0px 30px rgb(0, 0, 0), 0px 0px 20px rgb(255, 49, 49); padding: 30px;">Welcome to <br> vamps website</p>
+         <button onclick="scrollToSection()" style="background-color: rgba(0, 0, 0, 0.63); backdrop-filter: blur (1000px); border-radius: 40px; border: 0; outline: 0; width: 360px; height: 80px; margin-top: 500px; position: absolute; justify-content: center; flex-direction: row; align-items: center; display: flex; gap: 15px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.301), inset 0px 2px 3px rgba(255, 255, 255, 0.404);">
+            <p   id="Title" style="font-size: 23px; color: white; text-shadow: 0px 0px 15px white;">Checkout the website</p><Img style="width: 20px; height: auto; filter: drop-shadow(0px 0px 15px white);"  src="white-arrow-icon-png-23.png"></Img>
+        </button>
+        </div>
+    <div id="TopGif"></div>
+    <div class="MiddleRow"  id="AboutMe">    
+        <div id="Middle1">    <div class="Middle1OVERLAY"> 
+        <P id="Title" class="AboutMe1" style=" color: rgb(255, 255, 255); text-align: center; text-shadow: 0px 0px 30px rgb(0, 0, 0), 0px 0px 20px rgb(255, 255, 255); position: relative; padding-left: 50px; padding-right: 50px;"> About Me</P>
+        <P id="Title" class="AboutMe2" style=" color: rgb(255, 255, 255); text-align: center; text-shadow: 0px 0px 30px rgb(0, 0, 0), 0px 0px 20px rgb(255, 255, 255); position: relative;"> Hi there im vamp and some of my hobbys are HTML coding and 3d printing and etc, I love music, naruto, making new friends and Vr</P>
+            </div>
+        </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <div id="Middle2"></div>
+    <div class="Middle2OVERLAY" id="Links"> 
+        
+        <P id="Title" style="font-size: 400%; color: rgb(255, 49, 49); text-align: center; text-shadow: 0px 0px 30px rgb(0, 0, 0), 0px 0px 10px rgb(255, 49, 49); position: relative; margin-bottom: 220px;">Links!</P>
+        <div id="Links2">
+    <a href="https://discord.com/users/1078823321367478332"><button><img style="width: 40px; height: auto;" src="discord.D.png"></button></a>
+    <a href="https://www.tiktok.com/@seb1777"><button><img style="width: 55px; height: auto;" src="tiktok-icon-white-logo-tiktok-app-transparent-background-premium-social-media-design-for-digital-download-free-png.png"></button></a>
+    <a href="https://vrchat.com/home/user/usr_7e446dda-ccdf-4bf8-a74f-519aa3161229"><button><img style="width: 55px; height: auto;" src="VRChat-Logo.png"></button></a>
+    <a href="https://www.roblox.com/users/2718730832/profile"><button><img style="width: 55px; height: auto;" src="white-roblox-logo-5.png"></button></a>
+    
+        </div>    
+        <p id="MadebyText"> This entire website was coded by me (vamp) with HTML in <a href="https://code.visualstudio.com/download">Visual Studio Code</a></p>
+    </div>
+</body>
+</html>
